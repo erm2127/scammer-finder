@@ -1,0 +1,21 @@
+{
+    "environment": "development", // or "production", "testing"
+    "port": 5000,
+    "database": {
+      "host": "localhost",
+      "user": "your_username",
+      "password": "your_password",
+      "database": "your_database_name",
+      "dialect": "postgres" // or 'mysql', etc.
+    },
+    "jwtSecret": "your_strong_secret_key", 
+    "email": {
+      "host": "smtp.gmail.com", 
+      "port": 465,
+      "secure": true,
+      "auth": {
+        "user": "your_email@gmail.com",
+        "pass": "your_email_password" 
+      }
+    }
+  }
